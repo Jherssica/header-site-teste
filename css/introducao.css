@@ -1,0 +1,27 @@
+.introducao{
+    max-width: 1200px;
+    padding: 100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    align-items: center;
+    background-image: url("/img/canvas.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+   
+}
+
+.introducao h1{
+    font-size: 4.5rem;
+    line-height: 1.125;
+    margin-bottom: 30px;
+    color: #c4c4c4;
+}
+
+.introducao p{
+    font-size: 1.5rem;
+    color:#e3e3e3;
+    margin: 0px;
+    gap: 20px;
+}
